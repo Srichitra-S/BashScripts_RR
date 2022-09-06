@@ -1,6 +1,6 @@
 ## Guidelines to use the bash script
 
-#Requirements
+# Requirements
 
 1. [Install xterm](https://installati.one/ubuntu/21.04/xterm/)
 2. See that the arguments are given correctly whe running the bash scripts. 
