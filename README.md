@@ -19,6 +19,7 @@
 
 1. Name of the launch file in bash script is  `hdl_rr.launch`. See that your launch file is named the same or you make the necessary changes in the bash script.
 2. Output topic of HDL_GRAPH_SLAM is `/odom` and has been hardcoded in the bash script. So, if the bag file has a topic of the same name, see that is renamed. 
+3. `rr_localization_msgs` package need to built for hdl slam and localization.
  
 
 # hdl_slam.sh for bags where gt has to be taken from tf
