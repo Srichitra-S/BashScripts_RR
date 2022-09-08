@@ -31,10 +31,8 @@
 
 # hdl_loc.sh
 
-`$ source /path_to_loc.sh --arg1  `
-1. arg 1 : path to the bag file
-2. arg 2 : ground truth topic
-3. 
+`$ source /path_to_loc.sh --path to the bag file --ground truth topic `
+
 ### Points to note
 
 1. Name of the launch file in bash script is  `hdl_loc_rr.launch`. See that your launch file is named the same or you make the necessary changes in the bash script.
