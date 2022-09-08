@@ -9,24 +9,17 @@
 
 # evo.sh
 
-`$ source /path_to_evo.sh --arg1  --arg2 --arg3 `
-
-1. arg1 : path to bag file
-2. arg2 : ground truth topic
-3. arg3 : output topic of SLAM/Localization as required
+`$ source /path_to_evo.sh --path to bag file  --ground truth topic --output topic of SLAM/Localization as required
 
 # hdl_slam.sh
 
-`$ source /path_to_slam.sh --arg1  --arg2  `
-
-1. arg 1 : path to the bag file
-2. arg 2 : ground truth topic
+`$ source /path_to_slam.sh --path to the bag file  --ground truth topic `
 
 ### Points to note
 
 1. Name of the launch file in bash script is  `hdl_rr.launch`. See that your launch file is named the same or you make the necessary changes in the bash script.
 2. Output topic of HDL_GRAPH_SLAM is `/odom` and has been hardcoded in the bash script. So, if the bag file has a topic of the same name, see that is renamed. 
-3. 
+ 
 
 # hdl_slam.sh for bags where gt has to be taken from tf
 
