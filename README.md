@@ -9,7 +9,7 @@
 
 # evo.sh
 
-`$ source /path_to_evo.sh --path to bag file  --ground truth topic --output topic of SLAM/Localization as required
+`$ source /path_to_evo.sh --path to bag file  --ground truth topic --output topic of SLAM/Localization as required`
 
 # hdl_slam.sh
 
